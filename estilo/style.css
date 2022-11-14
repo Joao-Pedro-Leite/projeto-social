@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
+    background-size:cover ;
+}
+.telefone {
+    width: 200px;
+}
+.cell {
+}
+.menu {
+    
+}
+.logo {
+   
+    width: 100px;
+    height: 100px;
+}
+
