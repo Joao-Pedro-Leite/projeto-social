@@ -3,17 +3,22 @@
 body {
     background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
     background-size:cover ;
+    position: relative;
 }
 .telefone {
     width: 200px;
+    position: fixed;
 }
 .cell {
 }
 .menu {
-    
+    display: flex;
+    left: 50%;
+    top: 50%;
+    position: fixed;
 }
 .logo {
-   
+    flex-direction: row;
     width: 100px;
     height: 100px;
 }
