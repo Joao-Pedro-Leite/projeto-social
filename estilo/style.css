@@ -1,25 +1,73 @@
 @charset "UTF-8";
 
-body {
-    background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
-    background-size:cover ;
-    position: relative;
-}
-.telefone {
-    width: 200px;
-    position: fixed;
-}
-.cell {
-}
-.menu {
-    display: flex;
-    left: 50%;
-    top: 50%;
-    position: fixed;
-}
-.logo {
-    flex-direction: row;
-    width: 100px;
-    height: 100px;
+* {
+    margin: 0px;
 }
 
+body {
+    background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+main {
+    position: relative;
+}
+section {
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    height: 550px;
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -49%) ;
+    background-color: transparent;
+    height: 414px;
+    width: 232px;
+
+}
+
+iframe {
+    height: 413px;
+    width: 232px;
+   
+}
+section > img {
+    
+    margin: 2px;
+    height: 550px;
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    height: 510px;
+    width: 100px;
+    position: fixed;
+    top: 10%;
+    left: 90%;
+  
+}
+
+article  img {
+    border-radius: 50%;
+    margin: 2px;
+    height: 10vh;
+}
+aside {
+    margin: auto;
+    height: 70px;
+}
+
+article img:hover {
+    border: 2px solid white;
+}
